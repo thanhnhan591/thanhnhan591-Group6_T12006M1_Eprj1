@@ -1,0 +1,457 @@
+﻿.detail-order-2017, .detail-order-2018 {
+    background: -webkit-gradient(linear,center top,center bottom,from(#ec1010),to(#da0b00)) !important;
+    background: linear-gradient(#ec1010,#da0b00) !important;
+    background-color: #e60d0d !important;
+}
+
+#order-submit sup
+{
+	text-decoration : underline;
+}
+#order-submit .form-control
+{
+	border-radius: 2px !important;
+}
+.pkm-lkspan {
+    color: #2965a8;
+    cursor: pointer;
+}
+#order-submit .pd-form sup
+{
+	text-decoration: none;
+}
+.pd-infopromotion {
+    display: none;
+    width: 270px;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    border: solid 1px #bdbdbd;
+    position: absolute;
+    left: 100%;
+    top: -30px;
+    z-index: 9;
+}
+
+    .pd-infopromotion ul li {
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 5px;
+        color: #4a4a4a;
+    }
+
+        .pd-infopromotion ul li:before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            display: inline-block;
+            background-color: #d8d8d8;
+            border-radius: 100%;
+        }
+
+.pkm-lk {
+    display: inline;
+    position: relative;
+}
+
+    .pkm-lk:hover .pd-infopromotion {
+        display: inline-block;
+    }
+
+.arrow_box {
+    padding: 10px 15px;
+    position: relative;
+    font-size: 13px;
+}
+
+    .arrow_box:after, .arrow_box:before {
+        right: 100%;
+        top: 35px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .arrow_box:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-right-color: #fff;
+        border-width: 5px;
+        margin-top: -5px;
+    }
+
+    .arrow_box:before {
+        border-color: rgba(204, 204, 204, 0);
+        border-right-color: #ccc;
+        border-width: 6px;
+        margin-top: -6px;
+    }
+
+.pd-infopromotion p{
+    padding-left: 15px;
+}
+.pd-infopromotion li.fixbuy_online {
+    background-color: #dedede;
+    margin: 10px 0 10px -15px;
+	box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.pd-head {
+    padding: 17px 15px;
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    background: #fff;
+}
+
+    .pd-head h4 {
+        font-size: 18px;
+        font-weight: normal;
+        color: #4a4a4a;
+    }
+
+.pd-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+	opacity: 1;
+	font-size: 24px;
+    font-weight: 500;
+    color: #b8b8b8;
+}
+
+.pd-prod {
+    background: #f2f5f7;
+    padding: 15px;
+}
+
+.pd-pimg {
+    float: left;
+    width: 80px;
+    padding: 3px;
+    background: #ffffff;
+    border: 1px solid #d2d2d2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+    .pd-pimg img {
+        max-width: 70px;
+    }
+
+.pd-ifprod {
+    display: block;
+    margin-left: 95px;
+}
+
+.pd-pname {
+    font-size: 16px;
+    font-weight: normal;
+    color: #3d3d3d;
+    margin-bottom: 12px;
+}
+
+.pd-pcolor label {
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.pd-pcolor label,
+.pd-pcolor ul {
+    display: inline-block;
+}
+
+    .pd-pcolor ul li {
+        display: inline-block;
+        margin: 0 5px 5px 0;
+    }
+
+        .pd-pcolor ul li span {
+            cursor: pointer;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid transparent;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+        }
+
+        .pd-pcolor ul li.active span {
+            border: 2px solid #ffffff;
+            -webkit-box-shadow: 0 0 2px 0 #000;
+            -moz-box-shadow: 0 0 2px 0 #000;
+            box-shadow: 0 0 2px 0 #000;
+        }
+
+.pd-pinfo {
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+.pd-ppri {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.pd-pbhv input {
+    position: relative;
+}
+
+.pd-pbhv {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.pd-ppod {
+    font-size: 16px;
+    color: #d0021b;
+}
+
+.pd-ppsl {
+    font-size: 13px;
+    color: #898989;
+    text-decoration: line-through;
+}
+
+.pd-ppgm span {
+    font-size: 10px;
+    color: #ff2d2d;
+    display: inline-block;
+    padding: 1px 5px;
+    background-color: #fde5e5;
+    border: solid 1px #ffc6c6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.pd-form {
+    padding: 13px 15px;
+}
+
+    .pd-form ul li {
+        position: relative;
+        padding: 7px 0;
+    }
+
+        .pd-form ul li > label {
+            float: left;
+            width: 120px;
+            padding-top: 6px;
+            color: #3d3d3d;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+            .pd-form ul li > label sup {
+                color: #c30016;
+                font-weight: bold;
+            }
+
+        .pd-form ul li > div {
+            display: block;
+            margin-left: 120px;
+            position: relative;
+            text-align: left;
+        }
+
+            .pd-form ul li > div > input.form-control {
+                height: 36px;
+            }
+
+            .pd-form ul li > div > .error {
+                font-size: 12px;
+                color: #d31212;
+            }
+
+            .pd-form ul li > div > input.error {
+                border: 1px solid #d31212;
+            }
+
+.pd-fcheck {
+    display: inline-block;
+    margin: 5px 15px 5px 0;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.pd-ft {
+    padding: 15px 15px 5px;
+    border-top: 1px solid #d8d8d8;
+}
+
+.pd-ftpri {
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+    .pd-ftpri h5 {
+        font-size: 16px;
+        font-weight: normal;
+        color: #4a4a4a;
+        margin-bottom: 5px;
+    }
+
+        .pd-ftpri h5 strong {
+            font-weight: bold;
+            color: #c30016;
+        }
+
+    .pd-ftpri span {
+        font-size: 12px;
+        color: #4a4a4a;
+    }
+
+.pd-ftbtn {
+    float: right;
+    display: inline-block;
+    padding: 10px 23px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    background-color: #d0021b;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+    .pd-ftbtn:hover,
+    .pd-ftbtn:hover,
+    .pd-ftbtn:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+.pd-mainss {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.pd-l1 {
+    padding: 12px 0 32px;
+}
+
+.pd-l2 {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+    .pd-l2 strong {
+        font-weight: bold;
+    }
+
+.pd-l3 {
+    font-size: 13px;
+    margin-bottom: 2px;
+    font-style: italic;
+}
+
+.pd-l4 {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+    .pd-l4 strong {
+        font-weight: bold;
+        color: #d0021b;
+    }
+
+.pd-ftok {
+    text-align: center;
+}
+
+    .pd-ftok span {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        padding: 7px 40px;
+        background-color: #d0021b;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+.modal-order .modal-content {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border: none;
+    background-color: transparent;
+}
+
+.pd-body {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.pd-conts {
+}
+
+@media (max-width: 550px) {
+    .pd-pinfo,
+    .pd-ppri {
+        width: 100%;
+        text-align: left;
+    }
+
+    .pd-pbhv {
+        margin-bottom: 10px;
+    }
+
+    .pd-ppri p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .pd-ppgm {
+        display: none !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .pd-ftpri,
+    .pd-ftbtn {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .pd-ftpri {
+        text-align: right;
+    }
+
+    .pd-ftbtn {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    #popdtS .modal-dialog {
+        margin: 80px auto 30px;
+        width: 600px !important;
+    }
+}
+ 
